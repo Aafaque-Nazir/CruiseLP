@@ -7,7 +7,7 @@ function About() {
         {/* Image */}
         <div className="md:w-1/2 w-full">
           <img
-            src="/images/CruiseShip.jpg"
+            src="/CruiseShip.jpg"
             alt="Luxury Cruise"
             className="rounded-lg shadow-xl w-full object-cover h-80"
           />

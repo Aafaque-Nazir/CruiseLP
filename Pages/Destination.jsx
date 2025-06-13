@@ -5,19 +5,19 @@ function Destination() {
    const destinations = [
   {
     name: "CARIBBEAN",
-    image: "/images/caribbean.jpg",
+    image: "/caribbean.jpg",
   },
   {
     name: "GREECE",
-    image: "/images/greece.jpg",
+    image: "/greece.jpg",
   },
   {
     name: "ALASKA",
-    image: "/images/alaska.jpg",
+    image: "/alaska.jpg",
   },
   {
     name: "NORWAY",
-    image: "/images/norway.jpg",
+    image: "/norway.jpg",
   },
 ];
 

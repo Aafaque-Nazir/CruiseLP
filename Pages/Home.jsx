@@ -12,7 +12,7 @@ function Home() {
         <div className="relative w-[95vw] max-w-6xl h-[60vh] sm:h-[70vh] md:h-[80vh] mx-auto rounded-2xl shadow-3xl overflow-hidden">
           <img
             className="w-full h-full object-cover"
-            src="/images/CruiseShip.jpg"
+            src="/CruiseShip.jpg"
             alt=""
           />
           <div className="absolute inset-0 bg-black/40"></div>
@@ -33,7 +33,7 @@ function Home() {
               transition={{ duration: 0.5, ease: 'easeOut' }}
               whileHover={{ transition: { duration: 0.3 } }}
             >
-              <button className="bg-blue-500  hover:bg-blue-600 text-white font-bold py-2 px-6 mt-6 rounded shadow- text-base sm:text-lg">
+              <button className="cursor-pointer bg-blue-500  hover:bg-blue-600 text-white font-bold py-2 px-6 mt-6 rounded shadow- text-base sm:text-lg">
                 WhatsApp
               </button>
             </motion.a>
@@ -46,7 +46,7 @@ function Home() {
               transition={{ duration: 0.5, ease: 'easeOut' }}
               whileHover={{ transition: { duration: 0.3 } }}
             >
-              <button className="bg-blue-500 md:hidden hover:bg-blue-600 text-white font-bold py-2 px-6 mt-6 rounded shadow-xl text-base sm:text-lg">
+              <button className="cursor-pointer bg-blue-500 md:hidden hover:bg-blue-600 text-white font-bold py-2 px-6 mt-6 rounded shadow-xl text-base sm:text-lg">
                 Call Now
               </button>
             </motion.a>
